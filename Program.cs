@@ -6,7 +6,7 @@ namespace habraweatherappconsole
     {
         static void Main(string[] args)
         {
-            DataRepo.ReadWeatherData();
+            MainMenu.PrintMainMenu();
         }
     }
 }
