@@ -2,8 +2,11 @@ using System.IO;
 using System.Text.Json;
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
+using System.Xml.Serialization;
+
 
 using static System.Console;
+using System;
 
 namespace habraweatherappconsole
 {
@@ -78,6 +81,46 @@ namespace habraweatherappconsole
             {
                 WriteLine(item.Temperature.Maximum.Value + " " + item.Temperature.Minimum.Value);
             }
+        }
+
+        private static void WriteListOfCityMonitoring()
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(ObservableCollection<RootBasicCityInfo>));
+
+            using (StreamWriter sw = new StreamWriter("RootBasicCityInfo.xml"))
+            {
+                xmlSerializer.Serialize(sw, listOfCityForMonitorWeather);
+            }
+        }
+        public static void PrintКeceivedСities (ObservableCollection<RootBasicCityInfo> formalListOfCityes)
+        {
+            string pattern = "=====\n" + "Номер в списке: {0}\n" + "Название в оригинале: {1}\n"
+            + "В переводе:  {2} \n" + "Страна: {3}\n" + "Административный округ: {4}\n"
+            + "Тип: {5}\n" + "====\n";
+            int numberInList = 0;
+
+            foreach (var item in formalListOfCityes)
+            {
+                WriteLine(pattern, numberInList.ToString(),
+                item.EnglishName, item.LocalizedName, item.Country.LocalizedName,
+                item.AdministrativeArea.LocalizedName, item.AdministrativeArea.LocalizedType);
+                numberInList++;
+            }
+
+            Write ("Номер какого города добавить в мониторинг: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            try
+            {
+                listOfCityForMonitorWeather.Add(formalListOfCityes[num]);
+            }
+
+            catch (Exception ex)
+            {
+                WriteLine("Похоже, вы ошиблись цифрой.\n");
+                WriteLine(ex.Message);
+            }
+            WriteListOfCityMonitoring();
         }
     }
 }

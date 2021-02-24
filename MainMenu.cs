@@ -1,5 +1,6 @@
 using static System.Console;
 
+
 namespace habraweatherappconsole
 {
     /// <summary>
@@ -8,7 +9,6 @@ namespace habraweatherappconsole
     /// </summary>
     public static class MainMenu
     {
-
         public static void PrintMainMenu()
         {
             bool canExit = true;
@@ -39,7 +39,9 @@ namespace habraweatherappconsole
 
                     case "2":
                     {
-
+                        Write("Введите название города(ru, en)");
+                        string nameOfCity = ReadLine();
+                        SearchCity.GettingListOfCitiesOnRequest(nameOfCity);
                     }
                     break;
 
