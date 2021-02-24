@@ -1,3 +1,4 @@
+using System;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Xml.Serialization;
@@ -47,6 +48,15 @@ namespace habraweatherappconsole
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(ObservableCollection<UserApi>));
 
+            try
+            {
+                
+            }
+
+            catch(Exception ex)
+            {
+
+            }
             using (StreamReader sr = new StreamReader("UserApi.xml"))
             {
                 userApiList = xmlSerializer.Deserialize(sr) as ObservableCollection<UserApi>;
