@@ -39,7 +39,7 @@ namespace habraweatherappconsole
 
                     case "2":
                     {
-                        Write("Введите название города(ru, en)");
+                        Write("Введите название города(ru, en): ");
                         string nameOfCity = ReadLine();
                         SearchCity.GettingListOfCitiesOnRequest(nameOfCity);
                     }
@@ -47,7 +47,7 @@ namespace habraweatherappconsole
 
                     case "3":
                     {
-
+                        GettingWeatherData.GettingWeatherDataFromServices();
                     }
                     break;
 

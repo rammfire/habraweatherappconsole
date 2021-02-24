@@ -8,6 +8,8 @@ namespace habraweatherappconsole
         {
             // Загружаю пользовательский API
             UserApiManager.ReadUserApiToLocalStorage();
+            
+            DataRepo.ReadListOfCitymonitoring();
 
             // Печатаю меню
             MainMenu.PrintMainMenu();

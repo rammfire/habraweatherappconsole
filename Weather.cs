@@ -3,7 +3,7 @@ using System;
 
 namespace habraweatherappconsole
 {
-    public class Headline    {
+   public class Headline    {
         public DateTime EffectiveDate { get; set; } 
         public int EffectiveEpochDate { get; set; } 
         public int Severity { get; set; } 
@@ -58,7 +58,7 @@ namespace habraweatherappconsole
         public string MobileLink { get; set; } 
         public string Link { get; set; } 
     }
-
+    
 /// <summary>
 /// Класс реализует возможность хранения информации о погоде
 /// 

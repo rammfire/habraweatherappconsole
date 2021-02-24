@@ -28,14 +28,14 @@ namespace habraweatherappconsole
         /// </summary>
         /// <typeparam name="RootBasicCityInfo"></typeparam>
         /// <returns></returns>
-        static ObservableCollection<RootBasicCityInfo> listOfCityForMonitorWeather = new ObservableCollection<RootBasicCityInfo>();
+        public static ObservableCollection<RootBasicCityInfo> listOfCityForMonitorWeather = new ObservableCollection<RootBasicCityInfo>();
 
         /// <summary>
         /// Список хранит информацию о погоде
         /// </summary>
         /// <typeparam name="RootWeather"></typeparam>
         /// <returns></returns>
-        static ObservableCollection<RootWeather> weatherInformation = new ObservableCollection<RootWeather>();
+        public static ObservableCollection<RootWeather> weatherInformation = new ObservableCollection<RootWeather>();
 
         /// <summary>
         /// Метод реализует возможность чтения файла с предопределённым количеством
@@ -83,6 +83,15 @@ namespace habraweatherappconsole
             }
         }
 
+        public static void ReadListOfCitymonitoring()
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(ObservableCollection<RootBasicCityInfo>));
+
+            using (StreamReader sr = new StreamReader("RootBasicCityInfo.xml"))
+            {
+                listOfCityForMonitorWeather = xmlSerializer.Deserialize(sr) as ObservableCollection<RootBasicCityInfo>; 
+            }
+        }
         private static void WriteListOfCityMonitoring()
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(ObservableCollection<RootBasicCityInfo>));
@@ -92,6 +101,7 @@ namespace habraweatherappconsole
                 xmlSerializer.Serialize(sw, listOfCityForMonitorWeather);
             }
         }
+
         public static void PrintКeceivedСities (ObservableCollection<RootBasicCityInfo> formalListOfCityes)
         {
             string pattern = "=====\n" + "Номер в списке: {0}\n" + "Название в оригинале: {1}\n"

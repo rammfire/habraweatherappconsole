@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+
 namespace habraweatherappconsole
 {
 
-    public class Region    {
+public class Region    {
         public string ID { get; set; } 
         public string LocalizedName { get; set; } 
         public string EnglishName { get; set; } 
@@ -27,19 +28,19 @@ namespace habraweatherappconsole
     public class TimeZone    {
         public string Code { get; set; } 
         public string Name { get; set; } 
-        public int GmtOffset { get; set; } 
+        public double GmtOffset { get; set; } 
         public bool IsDaylightSaving { get; set; } 
         public object NextOffsetChange { get; set; } 
     }
 
     public class Metric    {
-        public int Value { get; set; } 
+        public double Value { get; set; } 
         public string Unit { get; set; } 
         public int UnitType { get; set; } 
     }
 
     public class Imperial    {
-        public int Value { get; set; } 
+        public double Value { get; set; } 
         public string Unit { get; set; } 
         public int UnitType { get; set; } 
     }

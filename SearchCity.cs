@@ -15,7 +15,7 @@ namespace habraweatherappconsole
         {
             // Получаю ApiKey из списка
             string apiKey = UserApiManager.userApiList[0].UserApiProperty;
-            string jsonOnWeb = $"http://dataservice.accuweather.com/locations/v1/cities/search?apikey={apiKey}&q={formalCityName}&language=ru";
+            string jsonOnWeb = $"http://dataservice.accuweather.com/locations/v1/cities/search?apikey={apiKey}&q={formalCityName}";
 
             WebClient webClient = new WebClient();
             string prepareString = webClient.DownloadString(jsonOnWeb);
