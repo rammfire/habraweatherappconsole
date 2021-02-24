@@ -20,7 +20,19 @@ namespace habraweatherappconsole
         /// <returns></returns>
         static ObservableCollection<RootBasicCityInfo> findCityesCollection = new ObservableCollection<RootBasicCityInfo>();
 
+        /// <summary>
+        /// Список хранит информацию об добаленных городах
+        /// </summary>
+        /// <typeparam name="RootBasicCityInfo"></typeparam>
+        /// <returns></returns>
         static ObservableCollection<RootBasicCityInfo> listOfCityForMonitorWeather = new ObservableCollection<RootBasicCityInfo>();
+
+        /// <summary>
+        /// Список хранит информацию о погоде
+        /// </summary>
+        /// <typeparam name="RootWeather"></typeparam>
+        /// <returns></returns>
+        static ObservableCollection<RootWeather> weatherInformation = new ObservableCollection<RootWeather>();
 
         /// <summary>
         /// Метод реализует возможность чтения файла с предопределённым количеством

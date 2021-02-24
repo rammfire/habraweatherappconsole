@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+
 namespace habraweatherappconsole
 {
     public class Headline    {
@@ -57,6 +58,11 @@ namespace habraweatherappconsole
         public string MobileLink { get; set; } 
         public string Link { get; set; } 
     }
+
+/// <summary>
+/// Класс реализует возможность хранения информации о погоде
+/// 
+/// </summary>
 
     public class RootWeather    {
         public Headline Headline { get; set; } 
