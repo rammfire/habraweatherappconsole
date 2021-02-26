@@ -8,6 +8,9 @@ namespace habraweatherappconsole
 {
     public static class GettingWeatherData
     {
+        /// <summary>
+        /// Метод реализует возможность получать погодную информацию выбранного города
+        /// </summary>
         public static void GettingWeatherDataFromServices()
         {
             WebClient webClient = new WebClient();
@@ -23,11 +26,24 @@ namespace habraweatherappconsole
                 item.AdministrativeArea.LocalizedName, item.AdministrativeArea.LocalizedType);
                 numberInList++;
             }
-
-            Write ("Номер города для просмотра погоды: ");
-            int num = Convert.ToInt32(Console.ReadLine());
-            string cityKey = DataRepo.listOfCityForMonitorWeather[num].Key;
             
+            bool ifNotExists = false;
+            string cityKey = null;
+            int num = 0;
+            do
+            {
+                ifNotExists = false;
+                Write("Номер города для просмотра погоды: ");
+                num = Convert.ToInt32(Console.ReadLine());
+                
+                if (num < 0 || num > DataRepo.listOfCityForMonitorWeather.Count)
+                {
+                    WriteLine("Такого номера нет. Попробуйте ещё раз.");
+                    ifNotExists = true;
+                }
+            } while(ifNotExists);
+            
+            cityKey = DataRepo.listOfCityForMonitorWeather[num].Key;
             // Получаю ApiKey из списка
             string apiKey = UserApiManager.userApiList[0].UserApiProperty;
             

@@ -92,6 +92,11 @@ namespace habraweatherappconsole
                 listOfCityForMonitorWeather = xmlSerializer.Deserialize(sr) as ObservableCollection<RootBasicCityInfo>; 
             }
         }
+
+        /// <summary>
+        /// Метод реализует возможность записывать список отслеживаемых городов
+        /// на жёсткий диск.
+        /// </summary>
         private static void WriteListOfCityMonitoring()
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(ObservableCollection<RootBasicCityInfo>));
@@ -102,6 +107,11 @@ namespace habraweatherappconsole
             }
         }
 
+        /// <summary>
+        /// Метод реализует возможность отображать список запрашиваемых городов
+        /// (Если таковых больше, чем 1).
+        /// </summary>
+        /// <param name="formalListOfCityes"></param>
         public static void PrintКeceivedСities (ObservableCollection<RootBasicCityInfo> formalListOfCityes)
         {
             string pattern = "=====\n" + "Номер в списке: {0}\n" + "Название в оригинале: {1}\n"
