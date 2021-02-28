@@ -36,7 +36,7 @@ namespace habraweatherappconsole
                 Write("Номер города для просмотра погоды: ");
                 num = Convert.ToInt32(Console.ReadLine());
                 
-                if (num < 0 || num > DataRepo.listOfCityForMonitorWeather.Count)
+                if (num < 0 || num > DataRepo.listOfCityForMonitorWeather.Count - 1)
                 {
                     WriteLine("Такого номера нет. Попробуйте ещё раз.");
                     ifNotExists = true;

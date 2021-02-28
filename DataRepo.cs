@@ -109,7 +109,7 @@ namespace habraweatherappconsole
 
         /// <summary>
         /// Метод реализует возможность отображать список запрашиваемых городов
-        /// (Если таковых больше, чем 1).
+        /// (Если городов с таким названием больше, чем 1).
         /// </summary>
         /// <param name="formalListOfCityes"></param>
         public static void PrintКeceivedСities (ObservableCollection<RootBasicCityInfo> formalListOfCityes)

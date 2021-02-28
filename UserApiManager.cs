@@ -50,16 +50,18 @@ namespace habraweatherappconsole
 
             try
             {
-                
+                using (StreamReader sr = new StreamReader("UserApi.xml"))
+                {
+                    userApiList = xmlSerializer.Deserialize(sr) as ObservableCollection<UserApi>;
+                }
             }
 
             catch(Exception ex)
             {
-
-            }
-            using (StreamReader sr = new StreamReader("UserApi.xml"))
-            {
-                userApiList = xmlSerializer.Deserialize(sr) as ObservableCollection<UserApi>;
+                /* Не вывожу никаких сообщений об ошибке. Потому как, если утилита была запущена впервые
+                / то файла скорее всего нет. Даже если бы он был и из-за каких-то аппаратных проблем стал недоступен
+                / то что я могу с этим поделать в таком случае?
+                */
             }
         }
      }
