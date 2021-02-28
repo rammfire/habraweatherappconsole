@@ -1,0 +1,186 @@
+{
+  "Headline": {
+    "EffectiveDate": "2021-02-23T07:00:00+03:00",
+    "EffectiveEpochDate": 1614052800,
+    "Severity": 3,
+    "Text": "Окончание понижения температуры: Среда",
+    "Category": "cold",
+    "EndDate": "2021-02-24T19:00:00+03:00",
+    "EndEpochDate": 1614182400,
+    "MobileLink": "http://m.accuweather.com/ru/ru/moscow/294021/extended-weather-forecast/294021?unit=c",
+    "Link": "http://www.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?unit=c"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-02-23T07:00:00+03:00",
+      "EpochDate": 1614052800,
+      "Temperature": {
+        "Minimum": {
+          "Value": -24.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": -20.6,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 31,
+        "IconPhrase": "Холодно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 31,
+        "IconPhrase": "Холодно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=1&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=1&unit=c"
+    },
+    {
+      "Date": "2021-02-24T07:00:00+03:00",
+      "EpochDate": 1614139200,
+      "Temperature": {
+        "Minimum": {
+          "Value": -13.3,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": -12.8,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 19,
+        "IconPhrase": "Небольшой снег",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 19,
+        "IconPhrase": "Небольшой снег",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=2&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=2&unit=c"
+    },
+    {
+      "Date": "2021-02-25T07:00:00+03:00",
+      "EpochDate": 1614225600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 3.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 5,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 19,
+        "IconPhrase": "Небольшой снег",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Ливни",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=3&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=3&unit=c"
+    },
+    {
+      "Date": "2021-02-26T07:00:00+03:00",
+      "EpochDate": 1614312000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 2.6,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 5.8,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 19,
+        "IconPhrase": "Небольшой снег",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Snow",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 8,
+        "IconPhrase": "Пасмурно",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=4&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=4&unit=c"
+    },
+    {
+      "Date": "2021-02-27T07:00:00+03:00",
+      "EpochDate": 1614398400,
+      "Temperature": {
+        "Minimum": {
+          "Value": -0.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 4.1,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 12,
+        "IconPhrase": "Ливни",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 29,
+        "IconPhrase": "Снег с дождем",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Mixed",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=5&unit=c",
+      "Link": "http://www.accuweather.com/ru/ru/moscow/294021/daily-weather-forecast/294021?day=5&unit=c"
+    }
+  ]
+}

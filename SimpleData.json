@@ -1,0 +1,334 @@
+[
+    {
+      "Version": 1,
+      "Key": "294021",
+      "Type": "City",
+      "Rank": 10,
+      "LocalizedName": "Москва",
+      "EnglishName": "Moscow",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "ASI",
+        "LocalizedName": "Азия",
+        "EnglishName": "Asia"
+      },
+      "Country": {
+        "ID": "RU",
+        "LocalizedName": "Россия",
+        "EnglishName": "Russia"
+      },
+      "AdministrativeArea": {
+        "ID": "MOW",
+        "LocalizedName": "Москва",
+        "EnglishName": "Moscow",
+        "Level": 1,
+        "LocalizedType": "Город федерального подчинения",
+        "EnglishType": "Federal City",
+        "CountryID": "RU"
+      },
+      "TimeZone": {
+        "Code": "MSK",
+        "Name": "Europe/Moscow",
+        "GmtOffset": 3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": 55.752,
+        "Longitude": 37.619,
+        "Elevation": {
+          "Metric": {
+            "Value": 155,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 508,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Tsentralny",
+          "EnglishName": "Tsentralny"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "ForecastConfidence"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "1397263",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Москва",
+      "EnglishName": "Moskwa",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "EUR",
+        "LocalizedName": "Европа",
+        "EnglishName": "Europe"
+      },
+      "Country": {
+        "ID": "PL",
+        "LocalizedName": "Польша",
+        "EnglishName": "Poland"
+      },
+      "AdministrativeArea": {
+        "ID": "10",
+        "LocalizedName": "Лодзинское воеводство",
+        "EnglishName": "Łódź",
+        "Level": 1,
+        "LocalizedType": "Воеводство",
+        "EnglishType": "Voivodship",
+        "CountryID": "PL"
+      },
+      "TimeZone": {
+        "Code": "CET",
+        "Name": "Europe/Warsaw",
+        "GmtOffset": 1,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": "2021-03-28T01:00:00Z"
+      },
+      "GeoPosition": {
+        "Latitude": 51.816,
+        "Longitude": 19.657,
+        "Elevation": {
+          "Metric": {
+            "Value": 238,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 780,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Восточно-Лодзинский повят",
+          "EnglishName": "Łódź East"
+        },
+        {
+          "Level": 3,
+          "LocalizedName": "Новосольна",
+          "EnglishName": "Nowosolna"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "ForecastConfidence",
+        "FutureRadar",
+        "MinuteCast",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "580845",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Москва",
+      "EnglishName": "Moskva",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "ASI",
+        "LocalizedName": "Азия",
+        "EnglishName": "Asia"
+      },
+      "Country": {
+        "ID": "RU",
+        "LocalizedName": "Россия",
+        "EnglishName": "Russia"
+      },
+      "AdministrativeArea": {
+        "ID": "KIR",
+        "LocalizedName": "Киров",
+        "EnglishName": "Kirov",
+        "Level": 1,
+        "LocalizedType": "Республика",
+        "EnglishType": "Republic",
+        "CountryID": "RU"
+      },
+      "TimeZone": {
+        "Code": "MSK",
+        "Name": "Europe/Moscow",
+        "GmtOffset": 3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": 57.968,
+        "Longitude": 49.104,
+        "Elevation": {
+          "Metric": {
+            "Value": 207,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 678,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Verkhoshizhemsky",
+          "EnglishName": "Verkhoshizhemsky"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "ForecastConfidence"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "2488304",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Москва",
+      "EnglishName": "Moskva",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "ASI",
+        "LocalizedName": "Азия",
+        "EnglishName": "Asia"
+      },
+      "Country": {
+        "ID": "RU",
+        "LocalizedName": "Россия",
+        "EnglishName": "Russia"
+      },
+      "AdministrativeArea": {
+        "ID": "PSK",
+        "LocalizedName": "Псков",
+        "EnglishName": "Pskov",
+        "Level": 1,
+        "LocalizedType": "Область",
+        "EnglishType": "Oblast",
+        "CountryID": "RU"
+      },
+      "TimeZone": {
+        "Code": "MSK",
+        "Name": "Europe/Moscow",
+        "GmtOffset": 3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": 57.449,
+        "Longitude": 29.185,
+        "Elevation": {
+          "Metric": {
+            "Value": 161,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 528,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Porkhovsky",
+          "EnglishName": "Porkhovsky"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts",
+        "Radar"
+      ]
+    },
+    {
+      "Version": 1,
+      "Key": "580847",
+      "Type": "City",
+      "Rank": 85,
+      "LocalizedName": "Москва",
+      "EnglishName": "Moskva",
+      "PrimaryPostalCode": "",
+      "Region": {
+        "ID": "ASI",
+        "LocalizedName": "Азия",
+        "EnglishName": "Asia"
+      },
+      "Country": {
+        "ID": "RU",
+        "LocalizedName": "Россия",
+        "EnglishName": "Russia"
+      },
+      "AdministrativeArea": {
+        "ID": "TVE",
+        "LocalizedName": "Тверь",
+        "EnglishName": "Tver'",
+        "Level": 1,
+        "LocalizedType": "Область",
+        "EnglishType": "Oblast",
+        "CountryID": "RU"
+      },
+      "TimeZone": {
+        "Code": "MSK",
+        "Name": "Europe/Moscow",
+        "GmtOffset": 3,
+        "IsDaylightSaving": false,
+        "NextOffsetChange": null
+      },
+      "GeoPosition": {
+        "Latitude": 56.918,
+        "Longitude": 32.163,
+        "Elevation": {
+          "Metric": {
+            "Value": 251,
+            "Unit": "m",
+            "UnitType": 5
+          },
+          "Imperial": {
+            "Value": 823,
+            "Unit": "ft",
+            "UnitType": 0
+          }
+        }
+      },
+      "IsAlias": false,
+      "SupplementalAdminAreas": [
+        {
+          "Level": 2,
+          "LocalizedName": "Penovsky",
+          "EnglishName": "Penovsky"
+        }
+      ],
+      "DataSets": [
+        "AirQualityCurrentConditions",
+        "AirQualityForecasts",
+        "Alerts"
+      ]
+    }
+  ]
